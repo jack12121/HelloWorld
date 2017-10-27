@@ -7,12 +7,10 @@ class Dashboard extends Component {
         <div>
             <NavLink to='/home'>
                 'Home' </NavLink>
-                <NavLink to='/home'>
+                <NavLink to='/about'>
                 'About' </NavLink>
-                <NavLink to='/home'>
+                <NavLink to='/contact'>
                 'ContactUs' </NavLink>
-                <NavLink to='/home'>
-                'Carrier' </NavLink>
         </div>
         );
     }
