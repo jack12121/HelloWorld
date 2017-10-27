@@ -3,7 +3,7 @@ const initialState = {
 }
 
 function containerReducer(state = initialState, action) {
-    switch (action) {
+    switch (action.type) {
         case 'loadConatiner':
             return {
                 ...state,
