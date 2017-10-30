@@ -9,9 +9,7 @@ function containerReducer(state = initialState, action) {
                 ...state,
                 conatinerName: 'gorakh'
             }
-
             break;
-
         default:
         return state;
             break;

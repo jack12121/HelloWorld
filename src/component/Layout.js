@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Route,Switch} from 'react-router-dom';
 import home  from './Home';
 import about from './About';
 import contact from './Contact';
-import { withRouter } from 'react-router-dom';
 import dashboard from './DashBoard'
 
 const layout= ()=>{
